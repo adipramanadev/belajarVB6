@@ -7,6 +7,6 @@ namespace api.Data
 {
     public class ApplicationDbContext
     {
-        
+        //nanti terusin lagi
     }
 }
