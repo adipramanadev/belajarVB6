@@ -1,2 +1,2 @@
-# belajarVB6
- belajr Vb 6
+# belajarVB6 , VB NET, C#
+ belajr Vb 6, VB NET, C#
