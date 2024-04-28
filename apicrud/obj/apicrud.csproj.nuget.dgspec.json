@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BElajarVB6\\belajarVB6\\programserderhanaC#\\programserderhanaC#.csproj": {}
+    "D:\\BElajarVB6\\belajarVB6\\apicrud\\apicrud.csproj": {}
   },
   "projects": {
-    "D:\\BElajarVB6\\belajarVB6\\programserderhanaC#\\programserderhanaC#.csproj": {
+    "D:\\BElajarVB6\\belajarVB6\\apicrud\\apicrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BElajarVB6\\belajarVB6\\programserderhanaC#\\programserderhanaC#.csproj",
-        "projectName": "programserderhanaC#",
-        "projectPath": "D:\\BElajarVB6\\belajarVB6\\programserderhanaC#\\programserderhanaC#.csproj",
+        "projectUniqueName": "D:\\BElajarVB6\\belajarVB6\\apicrud\\apicrud.csproj",
+        "projectName": "apicrud",
+        "projectPath": "D:\\BElajarVB6\\belajarVB6\\apicrud\\apicrud.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\BElajarVB6\\belajarVB6\\programserderhanaC#\\obj\\",
+        "outputPath": "D:\\BElajarVB6\\belajarVB6\\apicrud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,6 +71,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
