@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using simpleapi.DTO;
@@ -13,11 +9,12 @@ namespace simpleapi.Controllers
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
-        private readonly DbContext _dbContext;
-        public ProductController(DbContext dbContext)
+        private readonly CobadotnetContext _dbContext; // Mengubah tipe dari DbContext menjadi CobadotnetContext
+        public ProductController(CobadotnetContext dbContext) // Mengubah tipe parameter konstruktor
         {
             this._dbContext = dbContext;
         }
+
 
         [HttpGet("GetProduct")]
         public async Task<ActionResult<List<ProductDTO>>> Get()
@@ -32,7 +29,7 @@ namespace simpleapi.Controllers
             // Mengambil daftar produk dari database secara asinkron
             var products = await cobadotnetContext.Products.ToListAsync();
 
-            
+
             var productDTOs = products.Select(p => new ProductDTO
             {
                 Id = p.Id,

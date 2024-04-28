@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using MySql.EntityFrameworkCore.Extensions;
+
 namespace simpleapi
 {
     public class Program
@@ -9,6 +12,14 @@ namespace simpleapi
 
             // Add services to the container.
 
+            builder.Services.AddControllers();
+
+            // Add services to the container.
+            builder.Services.AddEntityFrameworkMySQL()
+                            .AddDbContext<DbContext>(options =>
+                            {
+                                options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+                            });
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

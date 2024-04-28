@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace simpleapi.Entities;
+﻿namespace simpleapi.Entities;
 
 public partial class Product
 {
