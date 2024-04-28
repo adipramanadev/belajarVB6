@@ -4,10 +4,6 @@ using System.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-
-
-
-
 namespace simpleapi.Entities;
 
 public partial class CobadotnetContext : DbContext
@@ -21,7 +17,7 @@ public partial class CobadotnetContext : DbContext
     {
     }
 
-    public virtual DbSet<Product> Products { get; set; }
+    public  DbSet<Product> Products { get; set; }
 
    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

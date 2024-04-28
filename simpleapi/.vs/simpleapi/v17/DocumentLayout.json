@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|d:\\belajarvb6\\belajarvb6\\simpleapi\\entities\\cobadotnetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|solutionrelative:entities\\cobadotnetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|d:\\belajarvb6\\belajarvb6\\simpleapi\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|solutionrelative:dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|d:\\belajarvb6\\belajarvb6\\simpleapi\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|d:\\belajarvb6\\belajarvb6\\simpleapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{807E508D-89C5-488B-86CC-961BE9D4F116}|simpleapi.csproj|d:\\belajarvb6\\belajarvb6\\simpleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -31,27 +31,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CobadotnetContext.cs",
-              "DocumentMoniker": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Entities\\CobadotnetContext.cs",
-              "RelativeDocumentMoniker": "Entities\\CobadotnetContext.cs",
-              "ToolTip": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Entities\\CobadotnetContext.cs",
-              "RelativeToolTip": "Entities\\CobadotnetContext.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAnwCEAAAAvAAAA",
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ProductDTO.cs",
+              "ToolTip": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\DTO\\ProductDTO.cs*",
+              "RelativeToolTip": "DTO\\ProductDTO.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T04:24:31.575Z",
+              "WhenOpened": "2024-04-28T04:54:22.325Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T04:12:51.706Z",
+              "WhenOpened": "2024-04-28T04:48:45.838Z",
               "EditorCaption": ""
             },
             {
@@ -69,16 +73,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Entities\\Product.cs",
-              "ToolTip": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Entities\\Product.cs",
-              "RelativeToolTip": "Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\BElajarVB6\\belajarVB6\\simpleapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T04:09:38.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T04:12:51.706Z"
             }
           ]
         }
