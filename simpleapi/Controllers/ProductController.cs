@@ -9,8 +9,8 @@ namespace simpleapi.Controllers
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
-        private readonly DbContext _dbContext; // Mengubah tipe dari DbContext menjadi CobadotnetContext
-        public ProductController(DbContext dbContext) // Mengubah tipe parameter konstruktor
+        private readonly DbContext _dbContext;
+        public ProductController(DbContext dbContext)
         {
             this._dbContext = dbContext;
         }
@@ -19,8 +19,8 @@ namespace simpleapi.Controllers
         [HttpGet("GetProduct")]
         public async Task<ActionResult<List<ProductDTO>>> Get()
         {
-            
-            if (_dbContext is not CobadotnetContext cobadotnetContext)
+
+            if (!(_dbContext is CobadotnetContext cobadotnetContext))
             {
                 return BadRequest("Invalid DbContext type");
             }
