@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("programserderhanaC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+666cf27aa6cecca66d44bb8ebf179587a1a8cb14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73d91ac6e45f604018f880c815056c4dedac6b92")]
 [assembly: System.Reflection.AssemblyProductAttribute("programserderhanaC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("programserderhanaC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
