@@ -18,9 +18,9 @@ namespace simpleapi
             builder.Services.AddEntityFrameworkMySQL()
                             .AddDbContext<DbContext>(options =>
                             {
-                                options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"));
+                                options.UseMySQL("server=localhost;port=3306;user=root;password=;database=cobadotnet");
                             });
-            builder.Services.AddControllers();
+            
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
